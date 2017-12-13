@@ -12,6 +12,6 @@ class Triangle
       :equilateral
     elsif @side_1 = @side_2 || @side_1 = @side_3
       :isosceles
-    end 
+    end
   end
 end
