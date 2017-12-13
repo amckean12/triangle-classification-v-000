@@ -15,10 +15,10 @@ class Triangle
     elsif @side_1 != @side_2 && @side_1 != @side_3 && @side_2 != @side_3
       :scalene
     elsif @side_1 == nil && @side_2 == nil && @side_3 == nil
-      raise TriangleRangeError
+      raise TriangleError
     end
   end
 
-  class TriangleRangeError < StandardError
+  class TriangleError < StandardError
   end
 end
