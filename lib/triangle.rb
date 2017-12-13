@@ -24,5 +24,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
+    :TriangleError
   end
 end
