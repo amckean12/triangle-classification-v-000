@@ -24,5 +24,6 @@ class Triangle
   end
 end
 
+#remeber this error class has to be on the outside of the triangle class (this was where the errors were coming from)
 class TriangleError < StandardError
 end
